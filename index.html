@@ -14,15 +14,103 @@
   </head>
   <body>
     <!-- BEGIN:: Header - Pablo Espinosa -->
-    <header class="header"></header>
-    <!-- END:: Header - Pablo Espinosa -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="Logo"> RAMAS
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <div class="text-end">
+              <a href="#" class="btn btn-primary btn-start">Registro</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>    <!-- END:: Header - Pablo Espinosa -->
 
     <!-- BEGIN:: Main - Pablo Ruiz -->
-    <main class="main"></main>
+    <main class="main container">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
     <!-- END:: Main - Pablo Ruiz -->
-
+    
     <!-- BEGIN:: Footer - Carlos-->
-    <footer class="footer"></footer>
+    <footer class="footer bg-dark text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>IDYGS 91</h5>
+            <p>UTCANCÚN<br>Universidad Tecnológica de Cancún</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Inicio</a></li>
+              <li><a href="#" class="text-white">Acerca de</a></li>
+              <li><a href="#" class="text-white">Servicios</a></li>
+              <li><a href="#" class="text-white">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Síganos</h5>
+            <a href="#" class="text-white me-2">Facebook</a>
+            <a href="#" class="text-white me-2">Twitter</a>
+            <a href="#" class="text-white">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- END:: Footer Carlos -->
 
     <script
